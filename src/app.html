@@ -1,0 +1,20 @@
+<template>
+	<lightning-accordion class="example-accordion0" onsectiontoggle={onsectiontoggle}>
+		<lightning-accordion-section name={section.id} label={section.title} for:each={sections} for:item="section"
+			key={section.id}>
+			{section.body}
+		</lightning-accordion-section>
+	</lightning-accordion>
+	<lightning-accordion class="example-accordion1" active-section-name="A">
+    <lightning-accordion-section name="A" label="Accordion Title A">
+        <p>This is the content area for section A.</p>
+    </lightning-accordion-section>
+    <!-- More accordion sections here -->
+	</lightning-accordion>
+	<lightning-accordion class="example-accordion1" active-section-name="A">
+    <lightning-accordion-section name="A" label="Accordion Title A">
+        <p>This is the content area for section A.</p>
+    </lightning-accordion-section>
+    <!-- More accordion sections here -->
+	</lightning-accordion>
+</template>

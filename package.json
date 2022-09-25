@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/adamliu1984.lwc-l8h4vm8m-fork-l8h4wbeg",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve KIr0SGNexWoRfxypSvAd --open"
+  }
+}
